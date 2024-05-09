@@ -5,6 +5,11 @@
   "author": "Oyinlola Olasunkanmi Raymond",
   "private": false,
   "license": "Apache-2.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
@@ -17,8 +22,19 @@
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
-    "test:e2e": "jest --config ./test/jest-e2e.json"
+    "test:e2e": "jest --config ./test/jest-e2e.json",
+    "publish": "npm version patch npm run build npm publish"
   },
+  "keywords": [
+    "nestjs",
+    "nestjs-modules",
+    "nestjs-services",
+    "nestjs-utilities",
+    "reusable components",
+    "shared code",
+    "code modularity",
+    "reuseable components"
+  ],
   "dependencies": {
     "@nestjs/cache-manager": "^2.2.2",
     "@nestjs/common": "^10.0.0",
