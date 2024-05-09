@@ -1,6 +1,6 @@
 {
   "name": "@nestjs-shared-kernel/common",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "A Nestjs repository for reusable, shared code components that can be easily integrated into any Nestjs application.",
   "author": "Oyinlola Olasunkanmi Raymond",
   "private": false,
@@ -22,8 +22,7 @@
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
-    "test:e2e": "jest --config ./test/jest-e2e.json",
-    "publish": "npm version patch npm run build npm publish"
+    "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "keywords": [
     "nestjs",
