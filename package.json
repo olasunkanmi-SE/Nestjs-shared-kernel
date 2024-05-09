@@ -1,10 +1,10 @@
 {
   "name": "@nestjs-shared-kernel/common",
   "version": "0.0.1",
-  "description": "",
+  "description": "A Nestjs repository for reusable, shared code components that can be easily integrated into any Nestjs application.",
   "author": "Oyinlola Olasunkanmi Raymond",
   "private": false,
-  "license": "UNLICENSED",
+  "license": "Apache-2.0",
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
